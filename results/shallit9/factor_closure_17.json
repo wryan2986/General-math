@@ -1,0 +1,12 @@
+{
+  "iterations": 17,
+  "prefix_length": 131072,
+  "extension_length": 262144,
+  "all_factor_lengths_through": 4097,
+  "all_shifts_hankel_order_through_if_prefix_passes": 2049,
+  "first_absent_factor": {
+    "length": 4098,
+    "offset": 196607
+  },
+  "comparison": "exact suffix automaton, no hashes"
+}

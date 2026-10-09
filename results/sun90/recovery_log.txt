@@ -1,0 +1,9 @@
+EXACT RECOVERED theta coefficients: ['T**3*(T - 1)', '6*T*(1170*T**3 - 135*T**2 + 743*T + 106)', '3888*(2*T + 1)*(2223*T**3 + 2268*T**2 + 1949*T + 648)', '272097792*(2*T + 1)*(2*T + 3)*(17*T**2 + 24*T + 12)', '881596846080*(T + 1)*(2*T + 1)*(2*T + 3)*(2*T + 5)']
+Verified on 55 coefficients not used for recovery; still needs algebraic proof.
+Leading coefficient: (864*z + 1)*(3240*z + 1)*(2519424*z**2 + 2916*z + 1)
+Right-division remainder of proved L by candidate R: {}
+Left quotient: {3: '-z**3*(1296*z + 1)**2*(2592*z - 1)/(3240*z + 1)', 2: '-6*z**2*(1296*z + 1)*(8162933760*z**3 - 3359232*z**2 + 2592*z + 1)/(3240*z + 1)**2', 1: '-18*z*(5712747562598400*z**5 - 2497857730560*z**4 - 13646880*z**2 - 7344*z - 1)/(3240*z + 1)**3', 0: '24*(714093445324800*z**5 - 1101996057600*z**4 + 340122240*z**3 - 14171760*z**2 - 7452*z - 1)/(3240*z + 1)**3'}
+Quotient indicial polynomial: (T - 4)*(T - 3)*(T - 2)
+First five coefficients of R(F): [0, 0, 0, 0, 0]
+PROVED: R(F)=0. A nonzero residual with order>=5 would contradict Q(h)=0 because the indicial polynomial is nonzero there.
+No minimality or special-value identity is claimed.

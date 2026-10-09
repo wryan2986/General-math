@@ -1,0 +1,1 @@
+NONZERO prefix=32768 max_order=16384 checked=268451840 prime=2305843009213693951 elapsed_seconds=7.09002

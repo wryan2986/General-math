@@ -1,0 +1,3 @@
+# Only the Sun differential-operator experiments need this dependency.
+# All Shallit Python verification uses the standard library.
+sympy==1.14.0

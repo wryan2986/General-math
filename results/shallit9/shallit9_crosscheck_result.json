@@ -1,0 +1,23 @@
+{
+  "prime": 2305843009213693951,
+  "lucas_lehmer_verified": true,
+  "prefix_length": 64,
+  "max_order": 32,
+  "exact_determinants_crosschecked": 1056,
+  "generator": "DFAO from binary digits",
+  "determinant_method": "exact integer Bareiss elimination",
+  "comparison": "equals C++ condensation residue modulo prime",
+  "adjacent_pairs": [
+    "12",
+    "14",
+    "21",
+    "22",
+    "23",
+    "31",
+    "32",
+    "41",
+    "42"
+  ],
+  "pair_set_present_in_phi_power": 5,
+  "pair_set_closed_under_substitution": true
+}

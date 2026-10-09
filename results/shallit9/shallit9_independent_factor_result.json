@@ -1,0 +1,93 @@
+{
+  "iterations": 15,
+  "prefix_length": 32768,
+  "extension_length": 65536,
+  "first_absent_factor": {
+    "length": 1026,
+    "offset": 49151
+  },
+  "all_factor_lengths_through": 1025,
+  "all_shifts_orders_through_if_all_prefix_determinants_pass": 513,
+  "method": "independent suffix array doubling; Kasai LCP; nearest source suffix passes",
+  "independent_small_random_factor_checks": 100,
+  "pair_history": [
+    {
+      "iteration": 0,
+      "length": 1,
+      "pair_first_occurrences": {}
+    },
+    {
+      "iteration": 1,
+      "length": 2,
+      "pair_first_occurrences": {
+        "12": 0
+      }
+    },
+    {
+      "iteration": 2,
+      "length": 4,
+      "pair_first_occurrences": {
+        "12": 0,
+        "22": 1,
+        "23": 2
+      }
+    },
+    {
+      "iteration": 3,
+      "length": 8,
+      "pair_first_occurrences": {
+        "12": 0,
+        "14": 6,
+        "22": 1,
+        "23": 2,
+        "31": 5,
+        "32": 3
+      }
+    },
+    {
+      "iteration": 4,
+      "length": 16,
+      "pair_first_occurrences": {
+        "12": 0,
+        "14": 6,
+        "22": 1,
+        "23": 2,
+        "31": 5,
+        "32": 3,
+        "41": 11,
+        "42": 7
+      }
+    },
+    {
+      "iteration": 5,
+      "length": 32,
+      "pair_first_occurrences": {
+        "12": 0,
+        "14": 6,
+        "21": 23,
+        "22": 1,
+        "23": 2,
+        "31": 5,
+        "32": 3,
+        "41": 11,
+        "42": 7
+      }
+    },
+    {
+      "iteration": 6,
+      "length": 64,
+      "pair_first_occurrences": {
+        "12": 0,
+        "14": 6,
+        "21": 23,
+        "22": 1,
+        "23": 2,
+        "31": 5,
+        "32": 3,
+        "41": 11,
+        "42": 7
+      }
+    }
+  ],
+  "elapsed_seconds": 26.665761947631836
+}

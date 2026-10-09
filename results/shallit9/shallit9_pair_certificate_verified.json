@@ -1,0 +1,68 @@
+{
+  "modulus": 2147483647,
+  "primality": "trial division all d through floor(sqrt(p))",
+  "substitution_depth": 12,
+  "max_order": 2049,
+  "blocks": [
+    {
+      "pair": "12",
+      "length": 8192,
+      "determinants_checked": 12589056,
+      "all_nonzero": true
+    },
+    {
+      "pair": "14",
+      "length": 8192,
+      "determinants_checked": 12589056,
+      "all_nonzero": true
+    },
+    {
+      "pair": "21",
+      "length": 8192,
+      "determinants_checked": 12589056,
+      "all_nonzero": true
+    },
+    {
+      "pair": "22",
+      "length": 8192,
+      "determinants_checked": 12589056,
+      "all_nonzero": true
+    },
+    {
+      "pair": "23",
+      "length": 8192,
+      "determinants_checked": 12589056,
+      "all_nonzero": true
+    },
+    {
+      "pair": "31",
+      "length": 8192,
+      "determinants_checked": 12589056,
+      "all_nonzero": true
+    },
+    {
+      "pair": "32",
+      "length": 8192,
+      "determinants_checked": 12589056,
+      "all_nonzero": true
+    },
+    {
+      "pair": "41",
+      "length": 8192,
+      "determinants_checked": 12589056,
+      "all_nonzero": true
+    },
+    {
+      "pair": "42",
+      "length": 8192,
+      "determinants_checked": 12589056,
+      "all_nonzero": true
+    }
+  ],
+  "total_checked_including_duplicates": 113301504,
+  "all_nonzero": true,
+  "recurrence": "Desnanot-Jacobi with nonzero denominators and batch inverses",
+  "fingerprint_mod_p": 624442176,
+  "independent_exact_Fraction_elimination_sample_checks": 288,
+  "source_of_samples": "separate exact rational Gaussian elimination, not project Bareiss code"
+}

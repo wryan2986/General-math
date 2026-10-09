@@ -1,0 +1,1 @@
+NONZERO prefix=8192 max_order=4096 checked=16781312 prime=2305843009213693951 elapsed_seconds=2.15792
